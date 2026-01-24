@@ -1,150 +1,141 @@
-Резюме обновлено 24 января 2026
-
 ═══════════════════════════════════════════════════════════════════════════════
-                        ГАЙФУЛИН МАРСЕЛЬ ФИДАРИТОВИЧ
-                     Backend Developer | Python | 3.5+ лет
+                            MARSEL GAIFULIN
+                   Backend Developer | Python | 3.5+ Years
 ═══════════════════════════════════════════════════════════════════════════════
 
-📞 +7 (987) 147-59-63
-📧 bikmetle@proton.me (предпочитаемый способ связи)
-💬 Telegram: @bikmetle
-📍 Турция (готов к переезду: Казань, Москва, Уфа)
+Email:    bikmetle@proton.me
+Telegram: @bikmetle
+Location: Turkey (open to relocation / remote worldwide)
 
 ───────────────────────────────────────────────────────────────────────────────
-                              ПРОФИЛЬ
+                               SUMMARY
 ───────────────────────────────────────────────────────────────────────────────
 
-Backend-разработчик с 3.5+ годами опыта в создании высоконагруженных веб-
-приложений и REST API. Специализируюсь на Python-экосистеме (FastAPI, Django).
-Имею опыт интеграции AI/LLM решений (OpenAI), проектирования баз данных и
-DevOps практик. Работаю удалённо, готов к полной/частичной занятости.
+Backend Developer with 3.5+ years of experience building scalable web
+applications and REST APIs. Specialized in the Python ecosystem (FastAPI,
+Django) with hands-on experience integrating AI/LLM solutions (OpenAI),
+designing database architectures, and implementing DevOps practices.
 
-💰 Ожидания: $3,000 net
-
-───────────────────────────────────────────────────────────────────────────────
-                          ТЕХНИЧЕСКИЙ СТЕК
-───────────────────────────────────────────────────────────────────────────────
-
-Backend:        Python • FastAPI • Django • Django REST Framework • Django Ninja
-Databases:      PostgreSQL • SQL • SQLAlchemy • Django ORM • Redis
-AI/ML:          OpenAI API • LLM Integration • AI-powered Analytics
-DevOps:         Docker • Linux • CI/CD • GitLab CI • Nginx • Gunicorn
-Testing:        Pytest • Unit Testing • Integration Testing
-Tools:          Git • Celery • Redis Queue • Telegram Bot API
+Seeking remote opportunities | Full-time or Contract
 
 ───────────────────────────────────────────────────────────────────────────────
-                            ОПЫТ РАБОТЫ
+                            TECHNICAL SKILLS
 ───────────────────────────────────────────────────────────────────────────────
 
-MARKDEV                                                    Ноябрь 2023 — настоящее
-Backend Developer (Python/FastAPI)                              [2 года 4 месяца]
-Сервис автоматизации междугородних автобусных перевозок
+Languages:      Python, SQL
+Frameworks:     FastAPI, Django, Django REST Framework, Django Ninja
+Databases:      PostgreSQL, Redis, SQLAlchemy, Django ORM
+AI/ML:          OpenAI API, LLM Integration, AI-powered Analytics
+DevOps:         Docker, Linux, CI/CD, GitLab CI, Nginx, Gunicorn
+Testing:        Pytest, Unit Testing, Integration Testing
+Tools:          Git, Celery, Redis Queue, Telegram Bot API, AWS S3
+
+───────────────────────────────────────────────────────────────────────────────
+                              EXPERIENCE
+───────────────────────────────────────────────────────────────────────────────
+
+MARKDEV                                                      Nov 2023 — Present
+Backend Developer (Python/FastAPI)
+Intercity Bus Transportation Automation Platform
 ................................................................................
 
-▸ Ключевые достижения:
+• Designed and developed REST API for a ticket booking system serving web,
+  mobile, and third-party integrations
 
-  • Спроектировал и разработал REST API для системы бронирования билетов,
-    обеспечивающей взаимодействие веб-приложения, мобильного клиента и
-    внешних сервисов
+• Built a multi-role admin panel with granular access control for business
+  owners, dispatchers, and drivers
 
-  • Создал многоуровневую админ-панель с разграничением прав доступа для
-    владельцев, диспетчеров и водителей
+• Optimized SQL queries and database architecture (PostgreSQL), improving
+  response times on critical endpoints
 
-  • Оптимизировал SQL-запросы и архитектуру БД (PostgreSQL), что повысило
-    производительность критичных эндпоинтов
+• Implemented asynchronous task processing (Celery + Redis) for notification
+  queues and data caching
 
-  • Внедрил асинхронную обработку задач (Celery + Redis) для очередей
-    уведомлений и кеширования данных
+• Established code reliability through comprehensive unit and integration
+  tests (pytest)
 
-  • Обеспечил надёжность кода через модульные и интеграционные тесты (pytest)
+• Containerized services with Docker and managed deployments on Linux servers
 
-  • Настроил контейнеризацию (Docker) и деплой на Linux-серверы
-
-▸ Стек: FastAPI, PostgreSQL, SQLAlchemy, Celery, Redis, Docker, Pytest, Git
+Stack: FastAPI, PostgreSQL, SQLAlchemy, Celery, Redis, Docker, Pytest, Git
 
 ────────────────────────────────────────────────────────────────────────────────
 
 MARKDEV
 Backend Developer (Python/Django Ninja)
-Платформа аналитики звонков с AI-интеграцией
+AI-Powered Call Analytics Platform
 ................................................................................
 
-▸ Ключевые достижения:
+• Integrated OpenAI API for automated call quality assessment, reducing
+  manual review time and improving analysis objectivity
 
-  • Интегрировал OpenAI API для автоматической оценки качества звонков,
-    сократив время ручной проверки и повысив объективность анализа
+• Developed integrations with multiple cloud PBX providers via API, expanding
+  platform compatibility across telecom vendors
 
-  • Разработал интеграции с несколькими облачными АТС по API, расширив
-    совместимость платформы с телеком-провайдерами
+• Built server infrastructure from scratch: Nginx, Gunicorn, SSL certificates,
+  systemd services for Telegram bot and Celery workers
 
-  • Построил серверную инфраструктуру с нуля: настройка Nginx, Gunicorn,
-    SSL-сертификаты, systemd-сервисы для Telegram-бота и Celery
+• Automated operational processes via cron jobs: database backups, log
+  rotation, certificate renewal
 
-  • Автоматизировал операционные процессы через cron: бэкап БД, ротация
-    логов, обновление сертификатов
+• Created automated reporting system with email and Telegram delivery
+  (Celery + Redis)
 
-  • Создал систему автоматических отчётов с рассылкой по email и Telegram
-    (Celery + Redis)
+• Deployed WordPress on subdomain alongside main Django application
 
-  • Развернул WordPress на поддомене совместно с основным Django-приложением
+• Increased test coverage for core functionality and refactored legacy code
 
-  • Покрыл unit-тестами ключевой функционал и провёл рефакторинг legacy-кода
-
-▸ Стек: Django Ninja, PostgreSQL, Django ORM, SQLAlchemy, OpenAI, Celery, Redis,
-        Nginx, Linux, Telegram Bot API, Git
+Stack: Django Ninja, PostgreSQL, Django ORM, SQLAlchemy, OpenAI API, Celery,
+       Redis, Nginx, Linux, Telegram Bot API, Git
 
 ────────────────────────────────────────────────────────────────────────────────
 
-ДОБРОФОН                                                Сентябрь 2022 — Февраль 2024
-Backend Developer (Python/Django/DRF)                            [1 год 6 месяцев]
-Благотворительная платформа — веб-сайт и мобильное приложение
+DOBROFON (Charity Organization)                           Sep 2022 — Feb 2024
+Backend Developer (Python/Django/DRF)
+Charitable Platform — Website & Mobile Application
 ................................................................................
 
-▸ Ключевые достижения:
+• Developed and maintained REST API serving both web and mobile applications
+  for a charitable foundation
 
-  • Разработал и поддерживал REST API для веб-сайта и мобильного приложения
-    благотворительного фонда
+• Optimized Django ORM queries, eliminating N+1 problems and reducing API
+  response times
 
-  • Оптимизировал Django ORM запросы, устранив N+1 проблемы и сократив
-    время отклика API
+• Utilized raw SQL for complex analytical queries where ORM was inefficient
 
-  • Применял raw SQL для сложных аналитических запросов, где ORM был
-    неэффективен
+• Configured Amazon AWS S3 object storage for media file management
 
-  • Настроил объектное хранилище Amazon AWS S3 для хранения медиафайлов
+• Implemented unit testing practices for new features
 
-  • Внедрил практики Unit Testing для нового функционала
+• Collaborated in Agile team environment using Git and Docker
 
-  • Участвовал в командной разработке по Agile-методологии с использованием
-    Git и Docker
-
-▸ Стек: Django, Django REST Framework, PostgreSQL, Django ORM, SQL, Docker,
-        AWS S3, Git
+Stack: Django, Django REST Framework, PostgreSQL, Django ORM, SQL, Docker,
+       AWS S3, Git
 
 ───────────────────────────────────────────────────────────────────────────────
-                             ОБРАЗОВАНИЕ
+                              EDUCATION
 ───────────────────────────────────────────────────────────────────────────────
 
-Тюменский государственный нефтегазовый университет                          2015
-Факультет промышленных технологий и инжиниринга
-Специальность: Химическая технология органических веществ
+Tyumen State Oil and Gas University                                        2015
+Faculty of Industrial Technologies and Engineering
+Chemical Technology of Organic Substances
 
-Югорский государственный университет, Ханты-Мансийск                        2008
-Специальность: Монтаж и техническая эксплуатация промышленного оборудования
-
-───────────────────────────────────────────────────────────────────────────────
-                               ЯЗЫКИ
-───────────────────────────────────────────────────────────────────────────────
-
-Английский     C1 — Продвинутый        │  Турецкий      B1 — Средний
-Татарский      Родной                  │  Индонезийский B1 — Средний
-Арабский       B2 — Средне-продвинутый │  Корейский     A2 — Элементарный
+Yugra State University, Khanty-Mansiysk                                    2008
+Installation and Maintenance of Industrial Equipment
 
 ───────────────────────────────────────────────────────────────────────────────
-                         ДОПОЛНИТЕЛЬНО
+                              LANGUAGES
 ───────────────────────────────────────────────────────────────────────────────
 
-• Гражданство: Россия (разрешение на работу в РФ)
-• Права категории B
-• Готов к командировкам
-• Формат: удалённая работа
+English       C1 — Advanced           Turkish       B1 — Intermediate
+Russian       Native                  Indonesian    B1 — Intermediate
+Arabic        B2 — Upper-Intermediate Korean        A2 — Elementary
+Tatar         Native
+
+───────────────────────────────────────────────────────────────────────────────
+                              ADDITIONAL
+───────────────────────────────────────────────────────────────────────────────
+
+• Authorized to work in Russia
+• Available for remote work worldwide
+• Open to relocation
+• Valid driver's license (Category B)
