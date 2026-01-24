@@ -1,0 +1,141 @@
+═══════════════════════════════════════════════════════════════════════════════
+                            MARCEL GAIFULIN
+                   Backend Developer | Python | 3.5+ Years
+═══════════════════════════════════════════════════════════════════════════════
+
+Email:    bikmetle@proton.me
+Telegram: @bikmetle
+Location: Turkey (open to relocation / remote worldwide)
+
+───────────────────────────────────────────────────────────────────────────────
+                               SUMMARY
+───────────────────────────────────────────────────────────────────────────────
+
+Backend Developer with 3.5+ years of experience building scalable web
+applications and REST APIs. Specialized in the Python ecosystem (FastAPI,
+Django) with hands-on experience integrating AI/LLM solutions (OpenAI),
+designing database architectures, and implementing DevOps practices.
+
+Seeking remote opportunities | Full-time or Contract
+
+───────────────────────────────────────────────────────────────────────────────
+                            TECHNICAL SKILLS
+───────────────────────────────────────────────────────────────────────────────
+
+Languages:      Python, SQL
+Frameworks:     FastAPI, Django, Django REST Framework, Django Ninja
+Databases:      PostgreSQL, Redis, SQLAlchemy, Django ORM
+AI/ML:          OpenAI API, LLM Integration, AI-powered Analytics
+DevOps:         Docker, Linux, CI/CD, GitLab CI, Nginx, Gunicorn
+Testing:        Pytest, Unit Testing, Integration Testing
+Tools:          Git, Celery, Redis Queue, Telegram Bot API, AWS S3
+
+───────────────────────────────────────────────────────────────────────────────
+                              EXPERIENCE
+───────────────────────────────────────────────────────────────────────────────
+
+MARKDEV                                                      Mar 2025 — Present
+Backend Developer (Python/FastAPI)
+Intercity Bus Transportation Automation Platform
+................................................................................
+
+• Designed and developed REST API for a ticket booking system serving web,
+  mobile, and third-party integrations
+
+• Built a multi-role admin panel with granular access control for business
+  owners, dispatchers, and drivers
+
+• Optimized SQL queries and database architecture (PostgreSQL), improving
+  response times on critical endpoints
+
+• Implemented asynchronous task processing (Celery + Redis) for notification
+  queues and data caching
+
+• Established code reliability through comprehensive unit and integration
+  tests (pytest)
+
+• Containerized services with Docker and managed deployments on Linux servers
+
+Stack: FastAPI, PostgreSQL, SQLAlchemy, Celery, Redis, Docker, Pytest, Git
+
+────────────────────────────────────────────────────────────────────────────────
+
+MARKDEV                                                   Nov 2023 — Mar 2025
+Backend Developer (Python/Django Ninja)
+AI-Powered Call Analytics Platform
+................................................................................
+
+• Integrated OpenAI API for automated call quality assessment, reducing
+  manual review time and improving analysis objectivity
+
+• Developed integrations with multiple cloud PBX providers via API, expanding
+  platform compatibility across telecom vendors
+
+• Built server infrastructure from scratch: Nginx, Gunicorn, SSL certificates,
+  systemd services for Telegram bot and Celery workers
+
+• Automated operational processes via cron jobs: database backups, log
+  rotation, certificate renewal
+
+• Created automated reporting system with email and Telegram delivery
+  (Celery + Redis)
+
+• Deployed WordPress on subdomain alongside main Django application
+
+• Increased test coverage for core functionality and refactored legacy code
+
+Stack: Django Ninja, PostgreSQL, Django ORM, SQLAlchemy, OpenAI API, Celery,
+       Redis, Nginx, Linux, Telegram Bot API, Git
+
+────────────────────────────────────────────────────────────────────────────────
+
+DOBROFON (Charity Organization)                           Sep 2022 — Feb 2024
+Backend Developer (Python/Django/DRF)
+Charitable Platform — Website & Mobile Application
+................................................................................
+
+• Developed and maintained REST API serving both web and mobile applications
+  for a charitable foundation
+
+• Optimized Django ORM queries, eliminating N+1 problems and reducing API
+  response times
+
+• Utilized raw SQL for complex analytical queries where ORM was inefficient
+
+• Configured Amazon AWS S3 object storage for media file management
+
+• Implemented unit testing practices for new features
+
+• Collaborated in Agile team environment using Git and Docker
+
+Stack: Django, Django REST Framework, PostgreSQL, Django ORM, SQL, Docker,
+       AWS S3, Git
+
+───────────────────────────────────────────────────────────────────────────────
+                              EDUCATION
+───────────────────────────────────────────────────────────────────────────────
+
+Tyumen State Oil and Gas University                                        2015
+Faculty of Industrial Technologies and Engineering
+Chemical Technology of Organic Substances
+
+Yugra State University, Khanty-Mansiysk                                    2008
+Installation and Maintenance of Industrial Equipment
+
+───────────────────────────────────────────────────────────────────────────────
+                              LANGUAGES
+───────────────────────────────────────────────────────────────────────────────
+
+English       C1 — Advanced           Turkish       B1 — Intermediate
+Russian       Native                  Indonesian    B1 — Intermediate
+Arabic        B2 — Upper-Intermediate Korean        A2 — Elementary
+Tatar         Native
+
+───────────────────────────────────────────────────────────────────────────────
+                              ADDITIONAL
+───────────────────────────────────────────────────────────────────────────────
+
+• Authorized to work in Russia and Turkey
+• Available for remote work worldwide
+• Open to relocation
+• Valid driver's license (Category B)
