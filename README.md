@@ -1,4 +1,4 @@
-# Marcel Gaifulin — Backend Developer
+# Marsel Gaifulin — Backend Developer
 
 **Python | FastAPI | Django | 3.5+ Years Experience**
 
