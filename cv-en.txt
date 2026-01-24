@@ -34,7 +34,7 @@ Tools:          Git, Celery, Redis Queue, Telegram Bot API, AWS S3
                               EXPERIENCE
 ───────────────────────────────────────────────────────────────────────────────
 
-MARKDEV                                                      Mar 2025 — Present
+MARKDEV                                                      Nov 2023 — Present
 Backend Developer (Python/FastAPI)
 Intercity Bus Transportation Automation Platform
 ................................................................................
@@ -60,7 +60,7 @@ Stack: FastAPI, PostgreSQL, SQLAlchemy, Celery, Redis, Docker, Pytest, Git
 
 ────────────────────────────────────────────────────────────────────────────────
 
-MARKDEV                                                   Nov 2023 — Mar 2025
+MARKDEV
 Backend Developer (Python/Django Ninja)
 AI-Powered Call Analytics Platform
 ................................................................................
