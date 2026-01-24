@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marsel Gaifulin — Backend Developer</title>
-    <meta name="description" content="Backend Developer with 3.5+ years of experience in Python, FastAPI, Django. Open to remote opportunities.">
+    <title>Гайфулин Марсель — Backend Developer</title>
+    <meta name="description" content="Backend-разработчик с 3.5+ годами опыта: Python, FastAPI, Django. Открыт к удалённой работе.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -149,6 +149,18 @@
             margin-top: 1rem;
             padding: 0.5rem 1rem;
             background: var(--accent);
+            color: white;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+
+        .salary {
+            display: inline-block;
+            margin-top: 0.5rem;
+            margin-left: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: var(--primary);
             color: white;
             border-radius: 20px;
             font-size: 0.875rem;
@@ -377,41 +389,43 @@
     <div class="container">
         <header>
             <div class="lang-switch">
-                <a href="ru/">RU</a>
+                <a href="../">EN</a>
             </div>
-            <h1>Marcel Gaifulin</h1>
-            <p class="subtitle">Backend Developer | Python | 3.5+ Years</p>
+            <h1>Гайфулин Марсель</h1>
+            <p class="subtitle">Backend Developer | Python | 3.5+ лет</p>
             <div class="contact">
                 <a href="mailto:bikmetle@proton.me">bikmetle@proton.me</a>
                 <a href="https://t.me/bikmetle">@bikmetle</a>
-                <span>Turkey / Remote Worldwide</span>
+                <span>Турция / Удалённо</span>
             </div>
         </header>
 
         <main>
             <section>
-                <h2>Summary</h2>
+                <h2>Профиль</h2>
                 <div class="summary">
-                    Backend Developer with 3.5+ years of experience building scalable web
-                    applications and REST APIs. Specialized in the Python ecosystem (FastAPI,
-                    Django) with hands-on experience integrating AI/LLM solutions (OpenAI),
-                    designing database architectures, and implementing DevOps practices.
-                    <div class="availability">Available for Remote | Full-time or Contract</div>
+                    Backend-разработчик с 3.5+ годами опыта в создании высоконагруженных веб-приложений и REST API. 
+                    Специализируюсь на Python-экосистеме (FastAPI, Django). Имею опыт интеграции AI/LLM решений (OpenAI), 
+                    проектирования баз данных и DevOps практик.
+                    <div>
+                        <span class="availability">Удалённо | Полная/частичная занятость</span>
+                        <span class="salary">$3,000 net</span>
+                    </div>
                 </div>
             </section>
 
             <section>
-                <h2>Technical Skills</h2>
+                <h2>Технический стек</h2>
                 <div class="skills-grid">
                     <div class="skill-row">
-                        <span class="skill-label">Languages</span>
+                        <span class="skill-label">Языки</span>
                         <div class="skill-tags">
                             <span class="tag">Python</span>
                             <span class="tag">SQL</span>
                         </div>
                     </div>
                     <div class="skill-row">
-                        <span class="skill-label">Frameworks</span>
+                        <span class="skill-label">Фреймворки</span>
                         <div class="skill-tags">
                             <span class="tag">FastAPI</span>
                             <span class="tag">Django</span>
@@ -420,7 +434,7 @@
                         </div>
                     </div>
                     <div class="skill-row">
-                        <span class="skill-label">Databases</span>
+                        <span class="skill-label">Базы данных</span>
                         <div class="skill-tags">
                             <span class="tag">PostgreSQL</span>
                             <span class="tag">Redis</span>
@@ -446,7 +460,7 @@
                         </div>
                     </div>
                     <div class="skill-row">
-                        <span class="skill-label">Tools</span>
+                        <span class="skill-label">Инструменты</span>
                         <div class="skill-tags">
                             <span class="tag">Git</span>
                             <span class="tag">Celery</span>
@@ -458,25 +472,25 @@
             </section>
 
             <section>
-                <h2>Experience</h2>
+                <h2>Опыт работы</h2>
 
                 <div class="job">
                     <div class="job-header">
                         <span class="company">MarkDev</span>
-                        <span class="dates">Mar 2025 — Present</span>
+                        <span class="dates">Март 2025 — настоящее время</span>
                     </div>
                     <div class="job-title">Backend Developer (Python/FastAPI)</div>
-                    <div class="job-desc">Intercity Bus Transportation Automation Platform</div>
+                    <div class="job-desc">Сервис автоматизации междугородних автобусных перевозок</div>
                     <ul class="achievements">
-                        <li>Designed and developed REST API for a ticket booking system serving web, mobile, and third-party integrations</li>
-                        <li>Built a multi-role admin panel with granular access control for business owners, dispatchers, and drivers</li>
-                        <li>Optimized SQL queries and database architecture (PostgreSQL), improving response times on critical endpoints</li>
-                        <li>Implemented asynchronous task processing (Celery + Redis) for notification queues and data caching</li>
-                        <li>Established code reliability through comprehensive unit and integration tests (pytest)</li>
-                        <li>Containerized services with Docker and managed deployments on Linux servers</li>
+                        <li>Спроектировал и разработал REST API для системы бронирования билетов, обеспечивающей взаимодействие веб-приложения, мобильного клиента и внешних сервисов</li>
+                        <li>Создал многоуровневую админ-панель с разграничением прав доступа для владельцев, диспетчеров и водителей</li>
+                        <li>Оптимизировал SQL-запросы и архитектуру БД (PostgreSQL), что повысило производительность критичных эндпоинтов</li>
+                        <li>Внедрил асинхронную обработку задач (Celery + Redis) для очередей уведомлений и кеширования данных</li>
+                        <li>Обеспечил надёжность кода через модульные и интеграционные тесты (pytest)</li>
+                        <li>Настроил контейнеризацию (Docker) и деплой на Linux-серверы</li>
                     </ul>
                     <div class="job-stack">
-                        <strong>Stack: </strong>
+                        <strong>Стек: </strong>
                         <span>FastAPI, PostgreSQL, SQLAlchemy, Celery, Redis, Docker, Pytest, Git</span>
                     </div>
                 </div>
@@ -484,106 +498,107 @@
                 <div class="job">
                     <div class="job-header">
                         <span class="company">MarkDev</span>
-                        <span class="dates">Nov 2023 — Mar 2025</span>
+                        <span class="dates">Ноябрь 2023 — Март 2025</span>
                     </div>
                     <div class="job-title">Backend Developer (Python/Django Ninja)</div>
-                    <div class="job-desc">AI-Powered Call Analytics Platform</div>
+                    <div class="job-desc">Платформа аналитики звонков с AI-интеграцией</div>
                     <ul class="achievements">
-                        <li>Integrated OpenAI API for automated call quality assessment, reducing manual review time and improving analysis objectivity</li>
-                        <li>Developed integrations with multiple cloud PBX providers via API, expanding platform compatibility across telecom vendors</li>
-                        <li>Built server infrastructure from scratch: Nginx, Gunicorn, SSL certificates, systemd services for Telegram bot and Celery workers</li>
-                        <li>Automated operational processes via cron jobs: database backups, log rotation, certificate renewal</li>
-                        <li>Created automated reporting system with email and Telegram delivery (Celery + Redis)</li>
-                        <li>Increased test coverage for core functionality and refactored legacy code</li>
+                        <li>Интегрировал OpenAI API для автоматической оценки качества звонков, сократив время ручной проверки и повысив объективность анализа</li>
+                        <li>Разработал интеграции с несколькими облачными АТС по API, расширив совместимость платформы с телеком-провайдерами</li>
+                        <li>Построил серверную инфраструктуру с нуля: настройка Nginx, Gunicorn, SSL-сертификаты, systemd-сервисы для Telegram-бота и Celery</li>
+                        <li>Автоматизировал операционные процессы через cron: бэкап БД, ротация логов, обновление сертификатов</li>
+                        <li>Создал систему автоматических отчётов с рассылкой по email и Telegram (Celery + Redis)</li>
+                        <li>Покрыл unit-тестами ключевой функционал и провёл рефакторинг legacy-кода</li>
                     </ul>
                     <div class="job-stack">
-                        <strong>Stack: </strong>
+                        <strong>Стек: </strong>
                         <span>Django Ninja, PostgreSQL, SQLAlchemy, OpenAI API, Celery, Redis, Nginx, Linux, Git</span>
                     </div>
                 </div>
 
                 <div class="job">
                     <div class="job-header">
-                        <span class="company">Dobrofon</span>
-                        <span class="dates">Sep 2022 — Feb 2024</span>
+                        <span class="company">Доброфон</span>
+                        <span class="dates">Сентябрь 2022 — Февраль 2024</span>
                     </div>
                     <div class="job-title">Backend Developer (Python/Django/DRF)</div>
-                    <div class="job-desc">Charitable Platform — Website & Mobile Application</div>
+                    <div class="job-desc">Благотворительная платформа — веб-сайт и мобильное приложение</div>
                     <ul class="achievements">
-                        <li>Developed and maintained REST API serving both web and mobile applications for a charitable foundation</li>
-                        <li>Optimized Django ORM queries, eliminating N+1 problems and reducing API response times</li>
-                        <li>Utilized raw SQL for complex analytical queries where ORM was inefficient</li>
-                        <li>Configured Amazon AWS S3 object storage for media file management</li>
-                        <li>Implemented unit testing practices for new features</li>
-                        <li>Collaborated in Agile team environment using Git and Docker</li>
+                        <li>Разработал и поддерживал REST API для веб-сайта и мобильного приложения благотворительного фонда</li>
+                        <li>Оптимизировал Django ORM запросы, устранив N+1 проблемы и сократив время отклика API</li>
+                        <li>Применял raw SQL для сложных аналитических запросов, где ORM был неэффективен</li>
+                        <li>Настроил объектное хранилище Amazon AWS S3 для хранения медиафайлов</li>
+                        <li>Внедрил практики Unit Testing для нового функционала</li>
+                        <li>Участвовал в командной разработке по Agile-методологии с использованием Git и Docker</li>
                     </ul>
                     <div class="job-stack">
-                        <strong>Stack: </strong>
+                        <strong>Стек: </strong>
                         <span>Django, Django REST Framework, PostgreSQL, Django ORM, Docker, AWS S3, Git</span>
                     </div>
                 </div>
             </section>
 
             <section>
-                <h2>Education</h2>
+                <h2>Образование</h2>
                 <div class="edu-item">
                     <div class="edu-header">
-                        <span class="edu-school">Tyumen State Oil and Gas University</span>
+                        <span class="edu-school">Тюменский государственный нефтегазовый университет</span>
                         <span class="edu-year">2015</span>
                     </div>
-                    <p class="edu-details">Faculty of Industrial Technologies and Engineering — Chemical Technology</p>
+                    <p class="edu-details">Факультет промышленных технологий и инжиниринга — Химическая технология</p>
                 </div>
                 <div class="edu-item">
                     <div class="edu-header">
-                        <span class="edu-school">Yugra State University, Khanty-Mansiysk</span>
+                        <span class="edu-school">Югорский государственный университет, Ханты-Мансийск</span>
                         <span class="edu-year">2008</span>
                     </div>
-                    <p class="edu-details">Installation and Maintenance of Industrial Equipment</p>
+                    <p class="edu-details">Монтаж и техническая эксплуатация промышленного оборудования</p>
                 </div>
             </section>
 
             <section>
-                <h2>Languages</h2>
+                <h2>Языки</h2>
                 <div class="languages-grid">
                     <div class="lang-item">
-                        <span class="lang-name">English</span>
-                        <span class="lang-level">C1 Advanced</span>
+                        <span class="lang-name">Английский</span>
+                        <span class="lang-level">C1</span>
                     </div>
                     <div class="lang-item">
-                        <span class="lang-name">Russian</span>
-                        <span class="lang-level">Native</span>
+                        <span class="lang-name">Русский</span>
+                        <span class="lang-level">Родной</span>
                     </div>
                     <div class="lang-item">
-                        <span class="lang-name">Arabic</span>
+                        <span class="lang-name">Арабский</span>
                         <span class="lang-level">B2</span>
                     </div>
                     <div class="lang-item">
-                        <span class="lang-name">Turkish</span>
+                        <span class="lang-name">Турецкий</span>
                         <span class="lang-level">B1</span>
                     </div>
                     <div class="lang-item">
-                        <span class="lang-name">Indonesian</span>
+                        <span class="lang-name">Индонезийский</span>
                         <span class="lang-level">B1</span>
                     </div>
                     <div class="lang-item">
-                        <span class="lang-name">Tatar</span>
-                        <span class="lang-level">Native</span>
+                        <span class="lang-name">Татарский</span>
+                        <span class="lang-level">Родной</span>
                     </div>
                 </div>
             </section>
 
             <section class="additional">
-                <h2>Additional</h2>
+                <h2>Дополнительно</h2>
                 <ul>
-                    <li>Available for remote work worldwide</li>
-                    <li>Open to relocation</li>
-                    <li>Authorized to work in Russia and Turkey</li>
+                    <li>Гражданство: Россия (разрешение на работу в РФ)</li>
+                    <li>Готов к удалённой работе</li>
+                    <li>Готов к переезду: Казань, Москва, Уфа</li>
+                    <li>Права категории B</li>
                 </ul>
             </section>
         </main>
 
         <footer>
-            <p>Last updated: January 2026</p>
+            <p>Обновлено: Январь 2026</p>
         </footer>
     </div>
 </body>
