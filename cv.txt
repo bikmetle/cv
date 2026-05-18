@@ -1,115 +1,121 @@
 ═══════════════════════════════════════════════════════════════════════════════
                             Marcel Gaifulin
-                   Backend Developer | Python | 3.5+ Years
+                   Backend Developer (Python) — 3.5+ Years
 ═══════════════════════════════════════════════════════════════════════════════
 
-Email:    bikmetle@proton.me
+Phone: +7 (987) 147-59-63
+Email: bikmetle@proton.me (preferred)
 Telegram: @bikmetle
-Location: Turkey (open to relocation / remote worldwide)
+Location: Turkey (open to relocation). Format: remote / relocation.
+Citizenship: Russia (work authorization)
+Expectations: $3,000 net
 
 ───────────────────────────────────────────────────────────────────────────────
-                               SUMMARY
+                              PROFILE
 ───────────────────────────────────────────────────────────────────────────────
 
-Backend Developer with 3.5+ years of experience building scalable web
-applications and REST APIs. Specialized in the Python ecosystem (FastAPI,
-Django) with hands-on experience integrating AI/LLM solutions (OpenAI),
-designing database architectures, and implementing DevOps practices.
-
-Seeking remote opportunities | Full-time or Contract
+Backend engineer with Python (Production-ready code) and 3.5+ years of 
+experience developing high-load web services, microservices, and ETL pipelines. 
+Experience with asynchronous services (async/await), multithreading and 
+multiprocessing (threading, multiprocessing), PostgreSQL schema design, and 
+query optimization. Practical experience integrating LLM/OpenAI in production 
+services and working with message brokers (Celery, RabbitMQ, Kafka). I write 
+clean, testable, and documented code (FastAPI, Django, SQLAlchemy). Started 
+coding before the mass adoption of AI assistants — I can write code 
+independently without AI and effectively use AI tools (Cursor, Copilot, ChatGPT, 
+etc.) to accelerate development, review, and debugging.
 
 ───────────────────────────────────────────────────────────────────────────────
-                            TECHNICAL SKILLS
+                            KEY SKILLS
 ───────────────────────────────────────────────────────────────────────────────
 
-Languages:      Python, SQL
-Frameworks:     FastAPI, Django, Django REST Framework, Django Ninja
-Databases:      PostgreSQL, Redis, SQLAlchemy, Django ORM
-AI/ML:          OpenAI API, LLM Integration, AI-powered Analytics
-DevOps:         Docker, Linux, CI/CD, GitLab CI, Nginx, Gunicorn
-Testing:        Pytest, Unit Testing, Integration Testing
-Tools:          Git, Celery, Redis Queue, Telegram Bot API, AWS S3
+Python / async/await • FastAPI • Django / Django REST Framework / Django Ninja 
+• REST API / WebSocket • gRPC (basics) • SQLAlchemy / asyncpg • PostgreSQL, 
+indexes, EXPLAIN • Redis • Celery, Dramatiq • Kafka / RabbitMQ • Docker • 
+basic Kubernetes • CI/CD (GitLab CI) • pytest, unit/integration tests • 
+profiling and performance optimization • ETL/ELT, Airflow (basics) • OpenAI / 
+LLM integration • S3 / MinIO • monitoring: Prometheus/Grafana, Sentry • 
+multithreading (threading) and multiprocessing • retry/idempotency patterns • 
+OpenAPI/Swagger documentation
 
 ───────────────────────────────────────────────────────────────────────────────
                               EXPERIENCE
 ───────────────────────────────────────────────────────────────────────────────
 
-MARKDEV                                                      Nov 2023 — Present
-Backend Developer (Python/FastAPI)
-Intercity Bus Transportation Automation Platform
+MARKDEV — Backend Developer (Python/FastAPI)
+Nov 2023 — Present
+Intercity Bus Transportation Automation Platform (web + mobile clients, 
+external integrations)
 ................................................................................
 
-• Designed and developed REST API for a ticket booking system serving web,
-  mobile, and third-party integrations
+Responsibilities:
+- Design and implementation of REST API on FastAPI for ticket booking, 
+  integration with external providers.
+- Database schema design (Postgres), query optimization, index optimization.
+- Asynchronous task processing (Celery + Redis), notification queues.
+- Containerization, deployment, systemd/nginx configuration.
+- Unit/integration test coverage.
 
-• Built a multi-role admin panel with granular access control for business
-  owners, dispatchers, and drivers
+Achievements:
+- Designed API and migrations for a scalable booking system; reduced p95 
+  latency of critical endpoints by ~10–25% through indexing and SQL optimization.
+- Reduced load on synchronous operations and increased queue throughput by 30% 
+  by transitioning to asynchronous processing and task batching.
+- Implemented CI/CD pipeline and containerization — feature release time 
+  reduced by 2×.
+- Coverage of key scenarios with tests (pytest), reducing production regressions 
+  by ~40%.
 
-• Optimized SQL queries and database architecture (PostgreSQL), improving
-  response times on critical endpoints
-
-• Implemented asynchronous task processing (Celery + Redis) for notification
-  queues and data caching
-
-• Established code reliability through comprehensive unit and integration
-  tests (pytest)
-
-• Containerized services with Docker and managed deployments on Linux servers
-
-Stack: FastAPI, PostgreSQL, SQLAlchemy, Celery, Redis, Docker, Pytest, Git
+Stack: Python, FastAPI, PostgreSQL, SQLAlchemy, Celery, Redis, Docker, Pytest, 
+       Git, Nginx
 
 ────────────────────────────────────────────────────────────────────────────────
 
-MARKDEV
-Backend Developer (Python/Django Ninja)
+MARKDEV — Backend Developer (Python / Django Ninja)
+Nov 2023 — Mar 2024 (parallel projects)
 AI-Powered Call Analytics Platform
 ................................................................................
 
-• Integrated OpenAI API for automated call quality assessment, reducing
-  manual review time and improving analysis objectivity
+Responsibilities:
+- LLM (OpenAI) integration for automated call quality assessment.
+- API integrations with cloud PBX systems, admin panels, automated reports.
+- Production infrastructure setup (Nginx, Gunicorn, SSL, systemd).
+- Task automation (backups, log rotation) and WordPress subdomain support.
 
-• Developed integrations with multiple cloud PBX providers via API, expanding
-  platform compatibility across telecom vendors
+Achievements:
+- OpenAI integration for call analysis reduced manual quality checks by ~70% 
+  and accelerated report generation; per project estimate — cost savings of 
+  ~800–1,200K RUB/year through reduced manual work and analyst time reduction.
+- Implemented email + Telegram notification system via Celery, reducing load 
+  on synchronous web requests and improving notification delivery.
+- Refactored legacy modules, improved service stability, reducing production 
+  incidents by ~30%.
 
-• Built server infrastructure from scratch: Nginx, Gunicorn, SSL certificates,
-  systemd services for Telegram bot and Celery workers
-
-• Automated operational processes via cron jobs: database backups, log
-  rotation, certificate renewal
-
-• Created automated reporting system with email and Telegram delivery
-  (Celery + Redis)
-
-• Deployed WordPress on subdomain alongside main Django application
-
-• Increased test coverage for core functionality and refactored legacy code
-
-Stack: Django Ninja, PostgreSQL, Django ORM, SQLAlchemy, OpenAI API, Celery,
-       Redis, Nginx, Linux, Telegram Bot API, Git
+Stack: Django Ninja, OpenAI API, PostgreSQL, Celery, Redis, Nginx, Linux, Git
 
 ────────────────────────────────────────────────────────────────────────────────
 
-DOBROFON (Charity Organization)                           Sep 2022 — Feb 2024
-Backend Developer (Python/Django/DRF)
-Charitable Platform — Website & Mobile Application
+DOBROFON — Backend Developer (Python / Django / DRF)
+Sep 2022 — Feb 2024
+Charitable Platform (web + mobile application)
 ................................................................................
 
-• Developed and maintained REST API serving both web and mobile applications
-  for a charitable foundation
+Responsibilities:
+- Development and maintenance of REST API for website and mobile application.
+- ORM query optimization, writing raw SQL for analytics.
+- AWS S3 integration, Docker environment configuration.
+- Implementation of unit testing practices and Agile team participation.
 
-• Optimized Django ORM queries, eliminating N+1 problems and reducing API
-  response times
+Achievements:
+- Eliminated N+1 problems and optimized several analytical queries: average 
+  API response time reduced by ~15%.
+- Migrated media storage to S3, simplified backup processes, and reduced 
+  data storage operational costs.
+- Introduced testing and automation practices, accelerating releases and 
+  reducing post-deployment bugs.
 
-• Utilized raw SQL for complex analytical queries where ORM was inefficient
-
-• Configured Amazon AWS S3 object storage for media file management
-
-• Implemented unit testing practices for new features
-
-• Collaborated in Agile team environment using Git and Docker
-
-Stack: Django, Django REST Framework, PostgreSQL, Django ORM, SQL, Docker,
-       AWS S3, Git
+Stack: Django, Django REST Framework, PostgreSQL, Django ORM, SQL, Docker, 
+       AWS S3, Git, Pytest
 
 ───────────────────────────────────────────────────────────────────────────────
                               EDUCATION
@@ -126,16 +132,38 @@ Installation and Maintenance of Industrial Equipment
                               LANGUAGES
 ───────────────────────────────────────────────────────────────────────────────
 
-English       C1 — Advanced           Turkish       B1 — Intermediate
-Russian       Native                  Indonesian    B1 — Intermediate
-Arabic        B2 — Upper-Intermediate Korean        A2 — Elementary
-Tatar         Native
+Russian — Native
+English — C1 (technical documentation, correspondence)
 
 ───────────────────────────────────────────────────────────────────────────────
                               ADDITIONAL
 ───────────────────────────────────────────────────────────────────────────────
 
-• Authorized to work in Russia
-• Available for remote work worldwide
-• Open to relocation
-• Valid driver's license (Category B)
+- Work with legacy and greenfield projects: refactoring, monolith 
+  decomposition to microservices, data contract design.
+- Experience integrating LLM in production: response handling, timeouts, 
+  retry, fallback, state management, embedding caching.
+- Actively use AI assistants (Cursor, Copilot, ChatGPT) to accelerate 
+  development, generate tests, find bugs, and optimize. Also write code 
+  independently without AI helpers — skilled at effectively combining both 
+  approaches.
+- Multithreading and multiprocessing practice: GIL awareness, ThreadPool/ 
+  ProcessPool usage, profiling and contention reduction.
+- Experience with message brokers (Celery, RabbitMQ, Kafka), designing 
+  idempotent handlers and retry mechanisms.
+- Skills in writing production-ready tests (pytest, pytest-asyncio), API 
+  documentation (OpenAPI), README and docstrings.
+- Available for business trips and relocation. Valid driver's license 
+  (Category B).
+
+───────────────────────────────────────────────────────────────────────────────
+                          KEY ACHIEVEMENTS
+───────────────────────────────────────────────────────────────────────────────
+
+- Reduced p95 latency of critical endpoints by 10–25% (SQL/index optimization).
+- Accelerated releases by 2× after implementing containerization and CI/CD.
+- Reduced manual call quality checks by ~70% after OpenAI integration; 
+  equivalent operational cost savings of ~0.8–1.2M RUB/year (per project 
+  estimate).
+- Reduced production incidents by ~30% after test coverage and refactoring of 
+  key functionality.
