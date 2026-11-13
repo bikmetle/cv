@@ -1,6 +1,6 @@
 # Marcel Gaifulin — Backend Developer
 
-**Python | FastAPI | Django | 3.5+ Years Experience**
+**Python | FastAPI | Django | 4+ Years Experience**
 
 [View Online Resume](https://bikmetle.github.io/cv/)
 
@@ -8,7 +8,7 @@
 
 - Email: bikmetle@proton.me
 - Telegram: [@bikmetle](https://t.me/bikmetle)
-- Location: Turkey (Remote Worldwide)
+- Location: Indonesia (Remote Worldwide)
 
 ## Tech Stack
 

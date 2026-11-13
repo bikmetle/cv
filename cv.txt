@@ -1,12 +1,12 @@
 ═══════════════════════════════════════════════════════════════════════════════
                             Marcel Gaifulin
-                   Backend Developer (Python) — 3.5+ Years
+                   Backend Developer (Python) — 4+ Years
 ═══════════════════════════════════════════════════════════════════════════════
 
 Phone: +7 (987) 147-59-63
 Email: bikmetle@proton.me (preferred)
 Telegram: @bikmetle
-Location: Turkey (open to relocation). Format: remote / relocation.
+Location: Indonesia (open to relocation). Format: remote / relocation.
 Citizenship: Russia (work authorization)
 Expectations: $3,000 net
 
@@ -14,7 +14,7 @@ Expectations: $3,000 net
                               PROFILE
 ───────────────────────────────────────────────────────────────────────────────
 
-Backend engineer with Python (Production-ready code) and 3.5+ years of 
+Backend engineer with Python (Production-ready code) and 4+ years of
 experience developing high-load web services, microservices, and ETL pipelines. 
 Experience with asynchronous services (async/await), multithreading and 
 multiprocessing (threading, multiprocessing), PostgreSQL schema design, and 
