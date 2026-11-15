@@ -42,7 +42,7 @@ OpenAPI/Swagger documentation
                               EXPERIENCE
 ───────────────────────────────────────────────────────────────────────────────
 
-MARKDEV — Backend Developer (Python/FastAPI)
+DevMark — Backend Developer (Python/FastAPI)
 Nov 2023 — Present
 Intercity Bus Transportation Automation Platform (web + mobile clients, 
 external integrations)
@@ -71,7 +71,7 @@ Stack: Python, FastAPI, PostgreSQL, SQLAlchemy, Celery, Redis, Docker, Pytest,
 
 ────────────────────────────────────────────────────────────────────────────────
 
-MARKDEV — Backend Developer (Python / Django Ninja)
+DevMark — Backend Developer (Python / Django Ninja)
 Nov 2023 — Mar 2024 (parallel projects)
 AI-Powered Call Analytics Platform
 ................................................................................
@@ -95,7 +95,7 @@ Stack: Django Ninja, OpenAI API, PostgreSQL, Celery, Redis, Nginx, Linux, Git
 
 ────────────────────────────────────────────────────────────────────────────────
 
-DOBROFON — Backend Developer (Python / Django / DRF)
+Dobrofon — Backend Developer (Python / Django / DRF)
 Sep 2022 — Feb 2024
 Charitable Platform (web + mobile application)
 ................................................................................
