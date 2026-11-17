@@ -1,5 +1,5 @@
 ═══════════════════════════════════════════════════════════════════════════════
-                            Marcel Gaifulin
+                            Marcel Gaifullin
                    Backend Developer (Python) — 4+ Years
 ═══════════════════════════════════════════════════════════════════════════════
 
@@ -7,49 +7,50 @@ Phone: +6287782211937
 Email: bikmetle@proton.me (preferred)
 Telegram: @bikmetle
 Location: Indonesia (open to relocation). Format: remote / relocation.
-Citizenship: Russia (work authorization)
+Citizenship: Russia (authorized to work in Russia)
 Expectations: $3,000 net
 
 ───────────────────────────────────────────────────────────────────────────────
                               PROFILE
 ───────────────────────────────────────────────────────────────────────────────
 
-Backend engineer with Python (Production-ready code) and 4+ years of
-experience developing high-load web services, microservices, and ETL pipelines. 
-Experience with asynchronous services (async/await), multithreading and 
-multiprocessing (threading, multiprocessing), PostgreSQL schema design, and 
-query optimization. Practical experience integrating LLM/OpenAI in production 
-services and working with message brokers (Celery, RabbitMQ, Kafka). I write 
-clean, testable, and documented code (FastAPI, Django, SQLAlchemy). Started 
-coding before the mass adoption of AI assistants — I can write code 
-independently without AI and effectively use AI tools (Cursor, Copilot, ChatGPT, 
+Senior backend engineer with Python (Production-ready code) and 4+ years of
+experience developing high-load web services, microservices, and ETL pipelines.
+Experience with asynchronous services (async/await), multithreading and
+multiprocessing (threading, multiprocessing), PostgreSQL schema design, and
+query optimization. Practical experience integrating LLM/OpenAI in production
+services and working with message brokers (Celery, Redis). I write
+clean, testable, and documented code (FastAPI, Django, SQLAlchemy). Started
+coding before the mass adoption of AI assistants — I can write code
+independently without AI and effectively use AI tools (Cursor, Copilot, ChatGPT,
 etc.) to accelerate development, review, and debugging.
 
 ───────────────────────────────────────────────────────────────────────────────
                             KEY SKILLS
 ───────────────────────────────────────────────────────────────────────────────
 
-Python / async/await • FastAPI • Django / Django REST Framework / Django Ninja 
-• REST API / WebSocket • gRPC (basics) • SQLAlchemy / asyncpg • PostgreSQL, 
-indexes, EXPLAIN • Redis • Celery, Dramatiq • Kafka / RabbitMQ • Docker • 
-basic Kubernetes • CI/CD (GitLab CI) • pytest, unit/integration tests • 
-profiling and performance optimization • ETL/ELT, Airflow (basics) • OpenAI / 
-LLM integration • S3 / MinIO • monitoring: Prometheus/Grafana, Sentry • 
-multithreading (threading) and multiprocessing • retry/idempotency patterns • 
+Python / async/await • FastAPI • Django / Django REST Framework / Django Ninja
+• REST API / WebSocket • SQLAlchemy / asyncpg • PostgreSQL, indexes • Redis •
+Celery • Docker • basic Kubernetes • CI/CD (GitLab CI) • pytest,
+unit/integration tests • profiling and performance optimization • ETL/ELT •
+OpenAI / LLM integration • S3 • monitoring: Prometheus/Grafana •
+multiprocessing • retry/idempotency patterns •
 OpenAPI/Swagger documentation
 
 ───────────────────────────────────────────────────────────────────────────────
                               EXPERIENCE
 ───────────────────────────────────────────────────────────────────────────────
 
-DevMark — Backend Developer (Python/FastAPI)
+DevMark — Backend Developer / Feature Lead (Python/FastAPI)
 Nov 2023 — Present
-Intercity Bus Transportation Automation Platform (web + mobile clients, 
+Intercity Bus Transportation Automation Platform (web + mobile clients,
 external integrations)
 ................................................................................
 
 Responsibilities:
-- Design and implementation of REST API on FastAPI for ticket booking, 
+- Lead features from requirements to release: break down tasks, design backend
+  solutions, implement functionality, and verify key scenarios.
+- Design and implementation of REST API on FastAPI for ticket booking,
   integration with external providers.
 - Database schema design (Postgres), query optimization, index optimization.
 - Asynchronous task processing (Celery + Redis), notification queues.
@@ -57,38 +58,51 @@ Responsibilities:
 - Unit/integration test coverage.
 
 Achievements:
-- Designed API and migrations for a scalable booking system; reduced p95 
+- Designed API and migrations for a scalable booking system; reduced p95
   latency of critical endpoints by ~10–25% through indexing and SQL optimization.
-- Reduced load on synchronous operations and increased queue throughput by 30% 
+- Reduced load on synchronous operations and increased queue throughput by 30%
   by transitioning to asynchronous processing and task batching.
-- Implemented CI/CD pipeline and containerization — feature release time 
+- Implemented CI/CD pipeline and containerization — feature release time
   reduced by 2×.
-- Coverage of key scenarios with tests (pytest), reducing production regressions 
+- Coverage of key scenarios with tests (pytest), reducing production regressions
   by ~40%.
+- CRM implementation reduced the number of dispatchers needed and lowered
+  payroll costs through operational automation, saving 150,000 RUB per month.
+- Optimized transport routes and identified the most and least profitable
+  routes to support decisions about the route network.
 
-Stack: Python, FastAPI, PostgreSQL, SQLAlchemy, Celery, Redis, Docker, Pytest, 
+Stack: Python, FastAPI, PostgreSQL, SQLAlchemy, Celery, Redis, Docker, Pytest,
        Git, Nginx
 
 ────────────────────────────────────────────────────────────────────────────────
 
-DevMark — Backend Developer (Python / Django Ninja)
+DevMark — Backend Developer / Feature Lead, AI (Python / Django Ninja)
 Nov 2023 — Mar 2024 (parallel projects)
 AI-Powered Call Analytics Platform
 ................................................................................
 
 Responsibilities:
-- LLM (OpenAI) integration for automated call quality assessment.
+- Lead AI features: clarify business needs, design OpenAI integrations,
+  implement backend logic, and deliver functionality to production.
+- Automated analysis of support and sales calls to assess service quality
+  and identify factors affecting sales conversion.
 - API integrations with cloud PBX systems, admin panels, automated reports.
 - Production infrastructure setup (Nginx, Gunicorn, SSL, systemd).
 - Task automation (backups, log rotation) and WordPress subdomain support.
 
 Achievements:
-- OpenAI integration for call analysis reduced manual quality checks by ~70% 
-  and accelerated report generation; per project estimate — cost savings of 
-  ~800–1,200K RUB/year through reduced manual work and analyst time reduction.
-- Implemented email + Telegram notification system via Celery, reducing load 
+- Delivered OpenAI-based analysis of support and sales calls to production:
+  automated call quality assessment and reporting, reducing manual review
+  by ~70%.
+- Reduced the effort required for call quality monitoring: estimated operating
+  cost savings of around 1.2M RUB/year through less manual work and less time
+  spent by analysts on reviews, according to the project estimate.
+- Implemented conversation analysis to identify reasons for customer loss and
+  missed sales; findings were used to assess support staff and sales managers
+  and identify opportunities to improve sales conversion.
+- Implemented email + Telegram notification system via Celery, reducing load
   on synchronous web requests and improving notification delivery.
-- Refactored legacy modules, improved service stability, reducing production 
+- Refactored legacy modules, improved service stability, reducing production
   incidents by ~30%.
 
 Stack: Django Ninja, OpenAI API, PostgreSQL, Celery, Redis, Nginx, Linux, Git
@@ -104,17 +118,19 @@ Responsibilities:
 - Development and maintenance of REST API for website and mobile application.
 - ORM query optimization, writing raw SQL for analytics.
 - AWS S3 integration, Docker environment configuration.
-- Implementation of unit testing practices and Agile team participation.
+- Introduced pytest and automated testing practices; participated in an
+  Agile team.
 
 Achievements:
-- Eliminated N+1 problems and optimized several analytical queries: average 
+- Eliminated N+1 problems and optimized several analytical queries: average
   API response time reduced by ~15%.
-- Migrated media storage to S3, simplified backup processes, and reduced 
+- Migrated media storage to S3, simplified backup processes, and reduced
   data storage operational costs.
-- Introduced testing and automation practices, accelerating releases and 
-  reducing post-deployment bugs.
+- Introduced pytest to a project that had not used it before: established
+  automated testing and covered key scenarios. Automated checks accelerated
+  releases and reduced post-deployment bugs.
 
-Stack: Django, Django REST Framework, PostgreSQL, Django ORM, SQL, Docker, 
+Stack: Django, Django REST Framework, PostgreSQL, Django ORM, SQL, Docker,
        AWS S3, Git, Pytest
 
 ───────────────────────────────────────────────────────────────────────────────
@@ -134,26 +150,30 @@ Installation and Maintenance of Industrial Equipment
 
 Russian — Native
 English — C1 (technical documentation, correspondence)
+Arabic — B1
+Indonesian — B1
+Turkish — B1
+Spanish — Learning
 
 ───────────────────────────────────────────────────────────────────────────────
                               ADDITIONAL
 ───────────────────────────────────────────────────────────────────────────────
 
-- Work with legacy and greenfield projects: refactoring, monolith 
+- Work with legacy and greenfield projects: refactoring, monolith
   decomposition to microservices, data contract design.
-- Experience integrating LLM in production: response handling, timeouts, 
+- Experience integrating LLM in production: response handling, timeouts,
   retry, fallback, state management, embedding caching.
-- Actively use AI assistants (Cursor, Copilot, ChatGPT) to accelerate 
-  development, generate tests, find bugs, and optimize. Also write code 
-  independently without AI helpers — skilled at effectively combining both 
+- Actively use AI assistants (Cursor, Copilot, ChatGPT) to accelerate
+  development, generate tests, find bugs, and optimize. Also write code
+  independently without AI helpers — skilled at effectively combining both
   approaches.
-- Multithreading and multiprocessing practice: GIL awareness, ThreadPool/ 
+- Multithreading and multiprocessing practice: GIL awareness, ThreadPool/
   ProcessPool usage, profiling and contention reduction.
-- Experience with message brokers (Celery, RabbitMQ, Kafka), designing 
+- Experience with message brokers (Celery, RabbitMQ, Kafka), designing
   idempotent handlers and retry mechanisms.
-- Skills in writing production-ready tests (pytest, pytest-asyncio), API 
+- Skills in writing production-ready tests (pytest, pytest-asyncio), API
   documentation (OpenAPI), README and docstrings.
-- Available for business trips and relocation. Valid driver's license 
+- Available for business trips and relocation. Valid driver's license
   (Category B).
 
 ───────────────────────────────────────────────────────────────────────────────
@@ -162,8 +182,11 @@ English — C1 (technical documentation, correspondence)
 
 - Reduced p95 latency of critical endpoints by 10–25% (SQL/index optimization).
 - Accelerated releases by 2× after implementing containerization and CI/CD.
-- Reduced manual call quality checks by ~70% after OpenAI integration; 
-  equivalent operational cost savings of ~0.8–1.2M RUB/year (per project 
-  estimate).
-- Reduced production incidents by ~30% after test coverage and refactoring of 
+- Led features at DevMark from requirements to production, including AI
+  analysis of support and sales calls.
+- Reduced manual call quality checks by ~70% after OpenAI integration;
+  operating cost savings of around 1.2M RUB/year (per project estimate).
+- Automated conversation analysis to identify missed sales and opportunities
+  to improve conversion.
+- Reduced production incidents by ~30% after test coverage and refactoring of
   key functionality.
