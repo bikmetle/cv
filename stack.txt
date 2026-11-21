@@ -1,23 +1,72 @@
-[
-    ('postgresql', 44), 
-    ('docker', 42), 
-    ('ai', 41), 
-    ('fastapi', 37), 
-    ('rest', 34), 
-    ('django', 32), 
-    ('ci', 30), 
-    ('cd', 22), 
-    ('redis', 27), 
-    ('git', 24), 
-    ('sql', 21), 
-    ('llm', 19), 
-    ('linux', 18), 
-    ('celery', 15), 
-    ('orm', 15), 
-    ('openai', 14), 
-    ('sqlalchemy', 14), 
-    ('telegram', 13), 
-    ('pytest', 12), 
-    ('unit', 10), 
-    ('drf', 8), 
-    ('gitlab', 8), 
+TOP WORDS
+=============
+
+Rank  Word            Count
+----  --------------  -----
+   1  python            332
+   2  ai                248
+   3  data              229
+   4  sql               213
+   6  ml                185
+   7  api               163
+   8  llm               163
+  10  postgresql        117
+  12  docker            110
+  17  git                90
+  18  ci                 88
+  20  rag                81
+  21  airflow            80
+  22  linux              77
+  23  clickhouse         75
+  25  cd                 73
+  27  kafka              69
+  28  etl                64
+  30  bi                 63
+  31  apache             62
+  33  fastapi            58
+  34  backend            57
+  36  rest               55
+  37  engineer           54
+  38  engineering        54
+  39  production         47
+  41  experience         45
+  42  kubernetes         44
+  43  dwh                43
+  44  redis              42
+  45  spark              42
+  48  review             37
+  49  c                  36
+  50  django             35
+  51  mysql              34
+  52  elt                33
+  54  react              32
+  55  devops             32
+  56  claude             32
+  57  power              32
+  58  pytorch            31
+  59  pyspark            30
+  60  pandas             30
+  61  nlp                29
+  62  high load          29
+  63  grafana            28
+  65  science            28
+  66  bash               27
+  69  typescript         26
+  71  numpy              26
+  72  gitlab             25
+  73  server             25
+  74  rabbitmq           25
+  75  computer           25
+  78  pytest             24
+  79  s3                 24
+  81  asyncio            23
+  83  prometheus         23
+  84  calling            23
+  85  vllm               23
+  86  langchain          22
+  91  mcp                21
+  95  hadoop             20
+  96  langgraph          20
+  97  mlops              20
+  98  systems            20
+ 100  cloud              20
